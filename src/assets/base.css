@@ -1,0 +1,129 @@
+@import "./normalize.min.css";
+
+:root {
+    /* paleta de colores */
+    --colorFondoBlanco: #e0e0e0;
+    /* blue darken-4 */
+    --colorBlueDarken4: #0d47a1;
+    --colorBlanco: #ffffff;
+    --colorBlancoRelax: #eee6e6;
+    --colorNegro: #000000;
+    --colorNegroRelax: #222;
+    /* blue accent-3 */
+    --colorAzul1: #2979ff;
+    /* blue lighten-2 */
+    --colorAzul2: #64b5f6;
+
+    /* Fonts (montserrat 400,700 / cardo 400 italic) */
+    /* font-family: 'Cardo', serif;
+    font-family: 'Montserrat Alternates', sans-serif; */
+    /* --font: 'Montserrat Alternates', sans-serif; */
+
+    --redondeo: 1rem;
+    --separacion: 2rem;
+
+    --d: 700ms;
+    --e: cubic-bezier(0.19, 1, 0.22, 1);
+    /* --font_sec: 'Cardo', serif; */
+}
+
+/* HTML */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* * {
+    font-family: var(--font);
+} */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* BODY */
+body {
+    /* font-family: var(--font); */
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: var(--colorFondoBlanco);
+}
+
+section {
+    padding-top: 4.4rem;
+}
+
+/* GLOBALES: */
+.contenedor {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width: 480px) {
+    .contenedor {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contenedor {
+        /* width: 85%;
+        max-width: 120rem; */
+        width: min(85%, 120rem);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: var(--colorNegroRelax);
+}
+
+
+/* HEADERS */
+h1,
+h2,
+h3 {
+    /* font-family: var(--font); */
+    font-weight: 700;
+    text-shadow: 1px 1px 2px var(--colorNegro);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+/* section h2 {
+    text-align: center;
+} */
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 2.0rem;
+}
+
+/* IMAGENES */
+img {
+    max-width: 100%;
+    /* border-radius: var(--redondeo); */
+    margin: 0;
+    vertical-align: top;
+}
+
+/* button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+} */
+
+.centrar-texto {
+    text-align: center;
+}
