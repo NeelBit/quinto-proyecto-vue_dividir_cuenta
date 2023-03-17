@@ -1,5 +1,7 @@
 # quinto-proyecto_dividir_cuenta
 
+Video del que tomo el ejercicio: https://www.youtube.com/watch?v=aJShMgOmAjE
+
 ![](https://github.com/NeelBit/quinto-proyecto-vue_dividir_cuenta/blob/master/cap.jpeg)
 
 This template should help get you started developing with Vue 3 in Vite.
