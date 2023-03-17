@@ -1,6 +1,6 @@
 # quinto-proyecto_dividir_cuenta
 
-![](![](https://github.com/NeelBit/segundo-proyecto-vue_practica/blob/main/cap_1.jpeg))
+![](https://github.com/NeelBit/quinto-proyecto-vue_dividir_cuenta/blob/master/cap.jpeg)
 
 This template should help get you started developing with Vue 3 in Vite.
 
